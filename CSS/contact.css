@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+  font-family: interface;
+  src: url("fonts/xctasysansrr.ttf");
+}
+@font-face {
+  font-family: titleklean;
+  src: url("fonts/titlekleanmeme.ttf");
+}
+@font-face {
+    font-family: Century;
+    src: url("fonts/CG.ttf");
+}
+@font-face {
+    font-family: PayPal-SLM;
+    src: url("fonts/PayPalSansSmall-Medium.ttf");
+}
+@font-face {
+  font-family: brooklyn;
+  src: url("fonts/Brooklyn.otf");
+}
+@font-face {
+  font-family: brooklynbold;
+  src: url("fonts/BrooklynBold.otf");
+}
+@font-face {
+  font-family: blacklist;
+  src: url("fonts/Blacklist.ttf");
+}
+@font-face {
+  font-family: MachineScript;
+  src: url("fonts/MachineScript.ttf");
+}
+@font-face {
+  font-family: Goodtime;
+  src: url("fonts/Goodtime.otf");
+}
+body
+{
+      font-size: 20px;
+      text-align: center;
+  color:#fff;
+  padding-top:0cm;
+  background-color: #0f222b;
+    font-family: PayPal-SLM;
+}
+* { color:#fff; text-decoration: none;}
+
+.text{
+  padding-top: 10cm;
+  font-family: Paypal-SLM;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+/*
+VRAGEN:
+1. Hoeveel memes moeten er per se komen?
+2.
+*/
+ c
+.extra
+{
+
+  font-family:sans-serif;
+}
+
+.HeaderImage{
+  background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-01/3/10/asset/buzzfeed-prod-fastlane-03/sub-buzz-10860-1483455838-12.png?downsize=715');
+  min-height: 105%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: -8px;
+  border-top: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  column-rule-color: #666;
+  text-decoration: none;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.titleKid{
+    font-family: Century;
+    font-weight: 700;
+    font-size: 60px;
+}

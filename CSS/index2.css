@@ -1,0 +1,25 @@
+body, html{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+
+}
+
+.pimg1, .pimg2{
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.pimg1{
+  background-image: url('https://i.pinimg.com/236x/dc/6f/24/dc6f241de89bf985f0a0dde751491c4e--office-memes-michael-scott.jpg');
+  min-height: 100%;
+}
