@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+  font-family: interface;
+  src: url("fonts/xctasysansrr.ttf");
+}
+@font-face {
+  font-family: titleklean;
+  src: url("fonts/titlekleanmeme.ttf");
+}
+@font-face {
+    font-family: Century;
+    src: url("fonts/CG.ttf");
+}
+@font-face {
+    font-family: PayPal-SLM;
+    src: url("fonts/PayPalSansSmall-Medium.ttf");
+}
+@font-face {
+  font-family: brooklyn;
+  src: url("fonts/Brooklyn.otf");
+}
+@font-face {
+  font-family: brooklynbold;
+  src: url("fonts/BrooklynBold.otf");
+}
+@font-face {
+  font-family: blacklist;
+  src: url("fonts/Blacklist.ttf");
+}
+@font-face {
+  font-family: MachineScript;
+  src: url("fonts/MachineScript.ttf");
+}
+@font-face {
+  font-family: Goodtime;
+  src: url("fonts/Goodtime.otf");
+}
+body
+{
+      font-size: 20px;
+      text-align: center;
+  color:#fff;
+  padding-top:0cm;
+  background-color: #0f222b;
+}
+* { color:#fff; text-decoration: none;}
+
+/*
+Dit is de foto van de meme, deze foto staat op de main page.
+*/
+
+.meme1{
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+}
+
+.titleKid{
+    font-family: Century;
+    font-weight: 700;
+    font-size: 60px;
+
+
+}
+
+/*
+Deze classes zijn allemaal info over de meme.
+*/
+
+.textmeme{
+  position: relative;
+  float: left;
+  font-family: Comic-Sans;
+  max-width: 650px;
+}
+
+.textmeme2{
+  position: relative;
+  float: left;
+  font-family: Comic-sans;
+  max-width: 600px;
+}
+
+.textmeme3{
+  position: relative;
+  float: left;
+  font-family: Comic-sans;
+  max-width: 600px;
+}
+
+.textmeme4{
+  position: relative;
+  float: left;
+  font-family: Comic-sans;
+  max-width: 600px;
+  margin-right: 500px;
+}
+
+/*
+Deze classes zijn allemaal andere versies/foto's van deze meme.
+*/
+/*
+https://pastebin.com/u06yYAUM
+*/
+.titleExample{
+    position: relative;
+    float: left;
+    margin: auto;
+    font-family: Century;
+    margin-right: 27%;
+    margin-left: 33%;
+}
+
+.meme_ex{
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+
+.meme_ex1{
+  position: relative;
+  float: left;
+
+}
+
+.meme_tot{
+  margin-left: 3%;
+}
+
+/*
+Via deze text / button ga je terug naar de meme homepage.
+*/
+.home_button{
+  font-size: 20px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+font-family: titleklean;
+}
