@@ -35,6 +35,10 @@
   font-family: Goodtime;
   src: url("fonts/goodtime.otf");
 }
+@font-face {
+  font-family: comic-sans;
+  src: url("fonts/comic-sans.ttf");
+}
 body
 {
       font-size: 20px;
@@ -69,28 +73,28 @@ Deze classes zijn allemaal info over de meme.
 .textmeme{
   position: relative;
   float: left;
-  font-family: Comic-Sans;
+  font-family: comic-sans;
   max-width: 650px;
 }
 
 .textmeme2{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: comic-sans;
   max-width: 600px;
 }
 
 .textmeme3{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: comic-sans;
   max-width: 600px;
 }
 
 .textmeme4{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: comic-sans;
   max-width: 600px;
   margin-right: 500px;
 }
