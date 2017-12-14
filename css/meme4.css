@@ -8,32 +8,36 @@
   src: url("fonts/titlekleanmeme.ttf");
 }
 @font-face {
-    font-family: Century;
-    src: url("fonts/CG.ttf");
+    font-family: century;
+    src: url("fonts/cg.ttf");
 }
 @font-face {
     font-family: PayPal-SLM;
-    src: url("fonts/PayPalSansSmall-Medium.ttf");
+    src: url("fonts/paypalsanssmall-medium.ttf");
 }
 @font-face {
   font-family: brooklyn;
-  src: url("fonts/Brooklyn.otf");
+  src: url("fonts/brooklyn.otf");
 }
 @font-face {
   font-family: brooklynbold;
-  src: url("fonts/BrooklynBold.otf");
+  src: url("fonts/brooklynbold.otf");
 }
 @font-face {
   font-family: blacklist;
-  src: url("fonts/Blacklist.ttf");
+  src: url("fonts/blacklist.ttf");
 }
 @font-face {
   font-family: MachineScript;
-  src: url("fonts/MachineScript.ttf");
+  src: url("fonts/machinescript.ttf");
 }
 @font-face {
   font-family: Goodtime;
-  src: url("fonts/Goodtime.otf");
+  src: url("fonts/goodtime.otf");
+}
+@font-face {
+  font-family: comic-sans;
+  src: url("fonts/comic-sans.ttf");
 }
 body
 {
