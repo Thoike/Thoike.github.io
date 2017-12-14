@@ -202,3 +202,55 @@ dhgfjhsgfjhsgdjhf
   column-rule-color: #666;
   text-decoration: none;
 }
+
+.footer {
+  width: calc(100% - 25%);
+  padding: 50px 12.5% 50px 12.5%;
+  background-color: #0c0c0c;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.content h1 {
+  color: black;
+}
+.footer h1 {
+  color: #3f3f3f;
+}
+.content p {
+  color: black;
+}
+.footer p {
+  color: #3f3f3f;
+}
+
+.table {
+  width: 100%;
+}
+.table p {
+  margin: 2px 0px 0px 0px;
+}
+.table h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.table a {
+  color: #3f3f3f;
+}
+td {
+  vertical-align: top;
+  width: 25%;
+  padding: 0px 2% 0px 2%;
+}
+.footerborder {
+  border-style: solid;
+  border-width: 0px 1.5px 0px 0px;
+  border-color: #1e1e1e;
+}
+.logofooter {
+  padding: 0px;
+  margin: 0px;
+  width: 65%;
+  height: auto;
+}
