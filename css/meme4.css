@@ -75,30 +75,22 @@ Deze classes zijn allemaal info over de meme.
 .textmeme{
   position: relative;
   float: left;
-  font-family: Comic-Sans;
+  font-family: titleklean;
   max-width: 650px;
 }
 
 .textmeme2{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: titleklean;
   max-width: 600px;
 }
 
 .textmeme3{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: titleklean;
   max-width: 600px;
-}
-
-.textmeme4{
-  position: relative;
-  float: left;
-  font-family: Comic-sans;
-  max-width: 600px;
-  margin-right: 500px;
 }
 
 /*
