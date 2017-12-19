@@ -5,10 +5,6 @@ var createform = document.createElement('form'); // Create New Element form
 	createform.setAttribute("method", "post");  // Setting method Attribute on form
 	x.appendChild(createform);
 
-var heading = document.createElement('h2'); // Heading of form
-	heading.innerHTML = "Contact Form ";  
-	createform.appendChild(heading);
-
 var line = document.createElement('hr');  //giving horizontal row after heading
 	createform.appendChild(line);
 
@@ -16,7 +12,7 @@ var linebreak = document.createElement('br');
 	createform.appendChild(linebreak);
 
 var namelabel = document.createElement('label'); // Create Label for name field
-	namelabel.innerHTML = "Your Name : ";            // Set Field Labels
+	namelabel.innerHTML = "Je naam : ";            // Set Field Labels
 	createform.appendChild(namelabel);
 
 var inputelement = document.createElement('input'); // Create input field for name
@@ -29,7 +25,7 @@ var linebreak = document.createElement('br');
 
 
 var emaillabel = document.createElement('label');  //Create Label for email field
-	emaillabel.innerHTML = "Your Email : ";
+	emaillabel.innerHTML = "Jouw e-mail : ";
 	createform.appendChild(emaillabel);
 
 var emailelement = document.createElement('input'); // Create input field for email
@@ -42,7 +38,7 @@ var emailbreak = document.createElement('br');
 
 // Append Textarea
 var messagelabel = document.createElement('label'); 
-	messagelabel.innerHTML = "Your Message : ";
+	messagelabel.innerHTML = "Je bericht : ";
 	createform.appendChild(messagelabel);
 
 var texareaelement = document.createElement('textarea'); 
