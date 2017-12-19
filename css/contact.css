@@ -38,7 +38,7 @@
 body{
   font-family: "Goodtime";
   background-color: #0f222b;
-   font-color: white;
+  color: white;
   
 /* below line is write to use google font online  */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
