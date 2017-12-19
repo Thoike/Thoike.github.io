@@ -35,83 +35,79 @@
   font-family: Goodtime;
   src: url("fonts/Goodtime.otf");
 }
-body
-{
-      font-size: 20px;
-      text-align: center;
-  color:#fff;
-  padding-top:0cm;
+body{
+  font-family: "Goodtime";
   background-color: #0f222b;
-    font-family: PayPal-SLM;
-}
-* { color:#fff; text-decoration: none;}
+/* below line is write to use google font online  */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
-.text{
-  padding-top: 10cm;
-  font-family: Paypal-SLM;
-  text-shadow: 0px 4px rgba(0, 0, 0, 0.6);
-
-}
-
-/*
-VRAGEN:
-1. Hoeveel memes moeten er per se komen?
-2.
-*/
- c
-.extra
-{
-
-  font-family:sans-serif;
+div#main{
+width: 830px;
+height: 650px;
+margin: 0px auto; 
+font-family: 'Ubuntu', sans-serif;
 }
 
-.HeaderImage{
-  background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-01/3/10/asset/buzzfeed-prod-fastlane-03/sub-buzz-10860-1483455838-12.png?downsize=715');
-  min-height: 105%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  margin: -8px;
-  border-top: 0px;
-  border-radius: 0px;
-  padding: 0px;
-  column-rule-color: #666;
-  text-decoration: none;
+div#form_sample{
+text-align:center;
+border: 1px solid #ccc;
+width: 300px;
+padding: 0px 50px 15px;
+margin-top:20px;
+box-shadow: 0 0 15px;
+border-radius: 6px;
+float:left;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    color: black;
+#main h1{
+margin-top:40px; 
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+hr{
+margin-top:-5px;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+label{
+float: left;
+font-size: 16px;
 }
 
-.container {
-    border-radius: 5px;
-    padding: 20px;
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height: 35px;
+margin-bottom: 25px;
+padding:10px;
+border:3px solid #2BC1F2;
 }
 
-.titleKid{
-    font-family: Century;
-    font-weight: 700;
-    font-size: 60px;
+textarea{
+width:100%;
+border:3px solid #2BC1F2;
+padding:10px;
+margin-bottom: 25px;
+margin-top: 10px;
+height: 100px;
+resize:none;
 }
+
+input[type="submit"]{
+width:100%;
+padding: 10px 45px;
+background-color: #2BC1F2;
+border: none;
+color: white;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* -------------------------------------
+    CSS for sidebar (optional) 
+---------------------------------------- */
+div#fugo{
+float:right;
+}
+
