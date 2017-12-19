@@ -8,32 +8,32 @@
   src: url("fonts/titlekleanmeme.ttf");
 }
 @font-face {
-    font-family: Century;
-    src: url("fonts/CG.ttf");
+    font-family: century;
+    src: url("fonts/cg.ttf");
 }
 @font-face {
     font-family: PayPal-SLM;
-    src: url("fonts/PayPalSansSmall-Medium.ttf");
+    src: url("fonts/paypalsanssmall-medium.ttf");
 }
 @font-face {
   font-family: brooklyn;
-  src: url("fonts/Brooklyn.otf");
+  src: url("fonts/brooklyn.otf");
 }
 @font-face {
   font-family: brooklynbold;
-  src: url("fonts/BrooklynBold.otf");
+  src: url("fonts/brooklynbold.otf");
 }
 @font-face {
   font-family: blacklist;
-  src: url("fonts/Blacklist.ttf");
+  src: url("fonts/blacklist.ttf");
 }
 @font-face {
   font-family: MachineScript;
-  src: url("fonts/MachineScript.ttf");
+  src: url("fonts/machinescript.ttf");
 }
 @font-face {
   font-family: Goodtime;
-  src: url("fonts/Goodtime.otf");
+  src: url("fonts/goodtime.otf");
 }
 body
 {
@@ -52,8 +52,6 @@ Dit is de foto van de meme, deze foto staat op de main page.
 .meme1{
   position: relative;
   display: inline-block;
-  float: right;
-  margin-right: 50px;
 }
 
 .titleKid{
@@ -71,31 +69,24 @@ Deze classes zijn allemaal info over de meme.
 .textmeme{
   position: relative;
   float: left;
-  font-family: Comic-Sans;
+  font-family: titleklean;
   max-width: 650px;
 }
 
 .textmeme2{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: titleklean;
   max-width: 600px;
 }
 
 .textmeme3{
   position: relative;
   float: left;
-  font-family: Comic-sans;
+  font-family: titleklean;
   max-width: 600px;
 }
 
-.textmeme4{
-  position: relative;
-  float: left;
-  font-family: Comic-sans;
-  max-width: 600px;
-  margin-right: 500px;
-}
 
 /*
 Deze classes zijn allemaal andere versies/foto's van deze meme.
@@ -118,12 +109,6 @@ https://pastebin.com/u06yYAUM
   margin: 10px;
 }
 
-.meme_ex1{
-  position: relative;
-  float: left;
-
-}
-
 .meme_tot{
   margin-left: 3%;
 }
@@ -137,4 +122,42 @@ Via deze text / button ga je terug naar de meme homepage.
   left: 5px;
   top: 10px;
 font-family: titleklean;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
